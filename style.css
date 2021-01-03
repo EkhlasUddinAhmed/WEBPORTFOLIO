@@ -1,0 +1,26 @@
+body{
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1{
+
+ font-size: 40px;
+
+}
+.highLight{
+
+    color: orange;
+}
+.half{
+
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half img{
+
+    width:100%;
+}

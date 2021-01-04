@@ -7,8 +7,15 @@ body{
 
 h1{
 
- font-size: 40px;
+ font-size: 50px;
 
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+   text-align: justify;
 }
 .highLight{
 
@@ -34,8 +41,10 @@ h1{
 section{
 
     height: 500px;
-    margin-bottom: 10px;
+    padding-bottom: 50px;
+    
 }
+
 .link-button{
 
     text-decoration: none;
@@ -45,4 +54,11 @@ section{
     color: white;
     font-weight: bold;
     
+}
+.dreamArea{
+
+    background-image: url("Image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
 }

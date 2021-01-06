@@ -1,0 +1,55 @@
+.headerSection{
+
+    
+    height: 300px;
+}
+.halfPortion{
+
+     width: 48%;
+     float:left;
+     margin: 5px;
+     padding: 2px;
+     height: 300px;
+     text-align: center;
+     
+}
+.halfPortion img{
+
+    width:100%;
+}
+
+h1{
+
+    font-size: 40px;
+    color:red;
+
+}
+p{
+    color: dimgray;
+    text-align: justify;
+}
+#explainLAW{
+
+   box-shadow: -10px -10px 5px blue;
+   border-radius: 10px; 
+   background-color:rgb(134, 134, 153)
+   
+}
+#leftDivBorder{
+
+    border:2px solid red;
+}
+#borderDesign{
+
+    border-right: 5px solid;
+    border-image:  linear-gradient(red, blue, cyan);
+   border-image-slice: 1;
+}
+.linkBtn{
+  text-decoration: none;
+ background-image:linear-gradient(blue,red,cyan) ;
+ padding:10px;
+ text-align: center;
+ 
+
+}

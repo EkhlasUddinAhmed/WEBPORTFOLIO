@@ -1,19 +1,20 @@
 body{
      margin: 0%;
      padding:0%;
-    font-family: 'Montserrat', sans-serif;
+     font-family: 'Lora', serif;
 }
 
 
 h1{
 
- font-size: 50px;
+ font-size: 40px;
 
 }
 h2{
     font-size: 40px;
 }
 p{
+    font-size: 20px;
     color: dimgray;
    text-align: justify;
 }
@@ -21,76 +22,158 @@ p{
 
     color: orange;
 }
-.half{
+.half-left{
 
-    width: 40%;
+    width: 60%;
     float: left;
-    margin-left: 5%;
+    margin-left: 4%;
     padding-left: 2%;
+    
 }
-.half img{
+.half-right{
+
+    width: 30%;
+    float: right;
+    margin-left: 2%;
+    padding-left: 2%;
+    
+    
+}
+.half-right img{
 
     width:100%;
 }
-.backGroundBanner{
-
-    background-image: url("Image/top-banner.png");
-    background-repeat: no-repeat;
-
+.half-left img{
+    width: 70%;
 }
+
 section{
 
     height: 500px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     
 }
 
 .link-button{
 
     text-decoration: none;
-    background-image: linear-gradient(lightsalmon, tomato);
+    background:red;
+    color: white;
     padding: 10px 20px;
     border-radius: 10px;
     color: white;
     font-weight: bold;
     
 }
-.dreamArea{
 
-    background-image: url("Image/dream-bg.png");
-    background-repeat: no-repeat;
-    background-position: right;
 
-}
-.single-experience{
 
-    box-shadow: 10px 10px 40px gray;
+
+#chatBtn{
+
+    text-decoration: none;
+    background:red;
+    color: white;
+    padding: 10px 20px;
     border-radius: 10px;
-    height: 80%;
-    background-color: white;
-
-}
-.experiencedArea{
-
-    background-image: url("Image/exp-bg.png");
-    background-repeat: no-repeat;
-    background-position:left;
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+    
     
 }
-#fullStack{
 
-    border-left: 7px solid;
-    border-image:linear-gradient(180deg, lightsalmon, tomato);
-    border-image-slice: 1;
-}
-#babyweb{
 
-    border-left: 7px solid;
-    border-image:linear-gradient(180deg, blue, cyan);
-    border-image-slice: 1;
+
+.experienceArea{
+      width:28%;
+      float:left;
+      margin: 1%;
+      padding: 1%;
+      height: 280px;
+      box-shadow: 10px 10px 40px gray;
+    
 }
+.experienceArea2{
+    width:20%;
+    float:left;
+    margin: 1%;
+    padding: 1%;
+    height: 300px;
+    border: 5px solid red;
+    text-align: center;
+    box-shadow: 10px 10px 40px gray;
+  
+}
+
+
+
 footer p{
 
     text-align:center;
     font-size: 12px;
+}
+.makeColor{
+
+    color:#0a3d62;
+}
+.makeColor2{
+
+    color:blue;
+}
+
+#middleText{
+
+    text-align: center;
+}
+.experienceArea img{
+
+    width:90%;
+}
+
+
+h4{
+    color: dimgray;
+}
+
+
+img{
+    width:70%;
+    
+
+    
+}
+#inquiry{
+    width:70%;
+    background-image: url("Image/Group_33094_1.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin:auto;
+    padding:45px;
+    height: auto;
+}
+
+#half-left-inquiry{
+
+    color: white;
+    margin-left:15px;
+    
+    
+}
+#putcolor{
+     
+    background-color: yellow;
+    
+
+}
+.Latestvideo{
+
+    box-shadow: 10px 10px 40px gray;
+}
+.purchaseCourse{
+
+    
+    
+    color:tomato;
+    font-weight: bold;
 }
